@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"name": "libgccvb Barebone",
+			"path": "."
+		},
+		{
+			"name": "libgccvb",
+			"path": "../../libgccvb"
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			//"vuengine.vuengine-ide",
+		]		
+	},
+	"settings": {
+		"files.autoGuessEncoding": true,
+		"C_Cpp.autoAddFileAssociations": false,
+		"editor.insertSpaces": false
+	}
+}
