@@ -1,12 +1,10 @@
 {
-	"images": {
-		"folders": {
-			"assets/images/AdjustmentScreen": {
-				"template": "entity"
-			},
-			"assets/images/Font": {
-				"template": "font"
-			}
+	"folders": {
+		"assets/images/AdjustmentScreen": {
+			"template": "entity"
+		},
+		"assets/images/Font": {
+			"template": "font"
 		}
 	}
 }
