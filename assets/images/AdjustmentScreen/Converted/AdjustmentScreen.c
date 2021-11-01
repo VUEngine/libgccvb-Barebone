@@ -1,6 +1,3 @@
-
-//{{BLOCK(AdjustmentScreen)
-
 //======================================================================
 //
 //	AdjustmentScreen, 512x448@2, 
@@ -13,7 +10,7 @@
 //
 //======================================================================
 
-const unsigned int AdjustmentScreenTiles[584] __attribute__((aligned(4)))=
+const uint32 AdjustmentScreenTiles[584] __attribute__((aligned(4)))=
 {
 	0x00000000,0x00000000,0x00000000,0x00000000,0xAFEBFFFC,0xAFEBAFEB,0xABABAFEB,0xEBAFEBAF,
 	0xFAAB3FFF,0xEAABEAAB,0xEBEBEBEB,0xFAABEBEB,0xEAAFEBAF,0xFABFFABF,0xFEFFFABF,0xFFFCFEFF,
@@ -99,7 +96,7 @@ const unsigned int AdjustmentScreenTiles[584] __attribute__((aligned(4)))=
 	0x00C000C0,0x00C000C0,0x00C000C0,0x0000FFC0,0xC000C000,0xC000C000,0xC000C000,0x0000FFFF,
 };
 
-const unsigned short AdjustmentScreenMap[3584] __attribute__((aligned(4)))=
+const uint16 AdjustmentScreenMap[3584] __attribute__((aligned(4)))=
 {
 	0x0001,0x0002,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
 	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
@@ -605,5 +602,3 @@ const unsigned short AdjustmentScreenMap[3584] __attribute__((aligned(4)))=
 	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
 	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
 };
-
-//}}BLOCK(AdjustmentScreen)

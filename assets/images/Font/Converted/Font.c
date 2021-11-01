@@ -1,6 +1,3 @@
-
-//{{BLOCK(Font)
-
 //======================================================================
 //
 //	Font, 256x64@2, 
@@ -12,7 +9,7 @@
 //
 //======================================================================
 
-const unsigned int FontTiles[1024] __attribute__((aligned(4)))=
+const uint32 FontTiles[1024] __attribute__((aligned(4)))=
 {
 	0x00000000,0x00000000,0x00000000,0x00000000,0x0003C3FF,0x3FF30FF3,0xFFF3FFF3,0xFFFF0003,
 	0x0C000FFF,0xFC00FC00,0xFC03FC00,0x0F0F0C00,0x00000000,0xFFC00000,0x03C0FFC0,0x03C003C0,
@@ -158,5 +155,3 @@ const unsigned int FontTiles[1024] __attribute__((aligned(4)))=
 	0x0F0F0000,0x0F0F0000,0x0F0F0F0F,0x00003FFC,0x00000FC0,0x0F0F0F0F,0x0FFF0F0F,0x03FF0F00,
 	0x003C003C,0x0F3C03FC,0x003C03FC,0x0000003C,0x0F0F0000,0x0F0F0000,0x0FFF0F0F,0x03FF0F00,
 };
-
-//}}BLOCK(Font)
