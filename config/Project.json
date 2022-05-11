@@ -1,0 +1,5 @@
+{
+	"name": "libgccvb Barebone",
+	"author": "Christian Radke <c.radke@posteo.de>",
+	"description": "Barebone project to be used as the foundation of new libgccvb-based projects."
+}
