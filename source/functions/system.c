@@ -22,5 +22,6 @@ void initSystem()
 	vbDisplayOn();
 
 	//load font
-	copymem((void*)(CharSeg3+0x1000), (void*)FontTiles, 256*16);
+	// + 4 to skip the compression flag prepended to tiles data by VUEngine Studio's image converter
+	copymem((void*)(CharSeg3+0x1000), (void*)(FontTiles + 4), 1025 * 4);
 }
