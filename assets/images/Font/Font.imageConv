@@ -1,0 +1,25 @@
+{
+    "_id": "8frDR4tOq4YkYZdO",
+    "animation": {
+        "frames": 0,
+        "individualFiles": false,
+        "isAnimation": false
+    },
+    "files": [
+        "assets/Image/Font/Font.png"
+    ],
+    "map": {
+        "compression": "none",
+        "generate": false,
+        "reduce": {
+            "flipped": false,
+            "unique": false
+        }
+    },
+    "name": "Font",
+    "section": "rom",
+    "tileset": {
+        "compression": "none",
+        "shared": false
+    }
+}

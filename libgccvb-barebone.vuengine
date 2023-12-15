@@ -1,16 +1,8 @@
 {
+    "name": "libgccvb Barebone",
     "folders": [
         {
             "path": ""
         }
-    ],
-    "items": {
-        "Project": {
-            "uzyp37PAzX3KXozr": {
-                "author": "Christian Radke <c.radke@posteo.de>",
-                "description": "Barebone project to be used as the foundation of new libgccvb-based projects.",
-                "name": "libgccvb Barebone"
-            }
-        }
-    }
+    ]
 }

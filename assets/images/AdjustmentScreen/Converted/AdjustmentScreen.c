@@ -1,7 +1,6 @@
 //---------------------------------------------------------------------------------------------------------
 //
 //  AdjustmentScreen
-//  * 512x448 pixels
 //  * 146 tiles, reduced by non-unique and flipped tiles, not compressed
 //  * 64x56 map, not compressed
 //  Size: 2340 + 7168 = 9508
