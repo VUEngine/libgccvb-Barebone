@@ -2,7 +2,7 @@
 
 Barebone project to be used as the foundation of new libgccvb-based projects.
 
-Compatible with VUEngine Studio.
+Check out the following guide on how to configure VUEngine Studio for libgcvb: https://www.vuengine.dev/documentation/setup/usage-with-other-libraries/
 
 ## License
 
