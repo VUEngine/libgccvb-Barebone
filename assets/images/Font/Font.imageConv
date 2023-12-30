@@ -5,9 +5,7 @@
         "individualFiles": false,
         "isAnimation": false
     },
-    "files": [
-        "assets/Image/Font/Font.png"
-    ],
+    "files": [],
     "map": {
         "compression": "none",
         "generate": false,

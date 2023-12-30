@@ -5,9 +5,7 @@
         "individualFiles": false,
         "isAnimation": false
     },
-    "files": [
-        "assets/Image/AdjustmentScreen/AdjustmentScreen.png"
-    ],
+    "files": [],
     "map": {
         "compression": "none",
         "generate": true,
@@ -16,7 +14,7 @@
             "unique": true
         }
     },
-    "name": "AdjustmentScreen",
+    "name": "Adjustment Screen",
     "section": "rom",
     "tileset": {
         "compression": "none",
