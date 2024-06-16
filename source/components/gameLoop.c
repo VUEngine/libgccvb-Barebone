@@ -11,7 +11,7 @@ void gameLoop()
 	WA[31].h = 224;
 	WA[30].head = WRLD_END;
 
-	printString(0, 14, 10, getString(STR_HELLO_WORLD));
+	printString(0, 19, 13, getString(STR_HELLO_WORLD));
 
 	vbFXFadeIn(0);
 

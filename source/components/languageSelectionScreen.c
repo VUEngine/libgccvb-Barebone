@@ -21,10 +21,10 @@ void languageSelectionScreen()
 	WA[31].h = 224;
 	WA[30].head = WRLD_END;
 
-    printString(0, 17, 10 + currentLanguage, ">");
+    printString(0, 19, 12 + currentLanguage, ">");
 
 	for(i = 0; __LANGUAGES[i]; i++) {
-		printString(0, 18, 10 + i, (char *)__LANGUAGES[i][STR_LANGUAGE]);
+		printString(0, 20, 12 + i, (char *)__LANGUAGES[i][STR_LANGUAGE]);
 		numLangs++;
 	}
 
@@ -33,13 +33,13 @@ void languageSelectionScreen()
 	while(1) {
 		if(buttonsPressed(K_LU|K_RU, true) && (currentLanguage > 0)) {
             currentLanguage--;
-            printString(0, 17, 10 + currentLanguage + 1, " ");
-            printString(0, 17, 10 + currentLanguage, ">");
+            printString(0, 19, 12 + currentLanguage + 1, " ");
+            printString(0, 19, 12 + currentLanguage, ">");
             vbWaitFrame(3);
 		} else if(buttonsPressed(K_LD|K_RD, true) && (currentLanguage < (numLangs-1))) {
             currentLanguage++;
-            printString(0, 17, 10 + currentLanguage - 1, " ");
-            printString(0, 17, 10 + currentLanguage, ">");
+            printString(0, 19, 12 + currentLanguage - 1, " ");
+            printString(0, 19, 12 + currentLanguage, ">");
             vbWaitFrame(3);
 		} else if(buttonsPressed(K_STA|K_A, true)) {
 			break;
