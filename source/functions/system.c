@@ -12,16 +12,19 @@ void clearScreen()
 
 void initSystem()
 {
-	//timer interrupts setup
+	// timer interrupts setup
 	setupTimer();
 
-	//column table setup
+	// column table setup
 	vbSetColTable();
 
-	//display setup
+	// display setup
 	vbDisplayOn();
 
-	//load font
+	// set ROM waiting to 1 cycle
+    HW_REGS[WCR] = 1;
+
+	// load font
 	// + 4 to skip the compression flag prepended to tiles data by VUEngine Studio's image converter
 	copymem((void*)(CharSeg3+0x1000), (void*)(FontTiles + 4), 1025 * 4);
 }
