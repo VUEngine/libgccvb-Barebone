@@ -17,6 +17,10 @@ void precautionScreen()
 
 	vbFXFadeIn(0);
 
+	// show this screen for at least 2 seconds
+	// as defined by Nintendo in the official development manual (Appendix 1)
+	vbWaitFrame(100);
+
 	while(1) {
 		if(buttonsPressed(K_ANY, false)) {
 			break;   
