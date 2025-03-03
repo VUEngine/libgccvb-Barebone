@@ -1,11 +1,19 @@
 {
     "_id": "8frDR4tOq4YkYZdO",
+    "_version": "0.6.0",
     "animation": {
         "frames": 0,
         "individualFiles": false,
         "isAnimation": false
     },
+    "colorMode": 0,
     "files": [],
+    "imageProcessingSettings": {
+        "distanceCalculator": "euclidean",
+        "imageQuantizationAlgorithm": "nearest",
+        "minimumColorDistanceToDither": 0,
+        "serpentine": false
+    },
     "map": {
         "compression": "none",
         "generate": false,
@@ -14,7 +22,6 @@
             "unique": false
         }
     },
-    "name": "Font",
     "section": "rom",
     "tileset": {
         "compression": "none",

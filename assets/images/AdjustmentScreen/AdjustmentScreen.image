@@ -1,11 +1,19 @@
 {
     "_id": "Al2hT4ppXuQNaTIO",
+    "_version": "0.6.0",
     "animation": {
         "frames": 0,
         "individualFiles": false,
         "isAnimation": false
     },
+    "colorMode": 0,
     "files": [],
+    "imageProcessingSettings": {
+        "distanceCalculator": "euclidean",
+        "imageQuantizationAlgorithm": "nearest",
+        "minimumColorDistanceToDither": 0,
+        "serpentine": false
+    },
     "map": {
         "compression": "none",
         "generate": true,
@@ -14,7 +22,6 @@
             "unique": true
         }
     },
-    "name": "Adjustment Screen",
     "section": "rom",
     "tileset": {
         "compression": "none",
