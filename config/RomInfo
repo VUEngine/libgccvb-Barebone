@@ -1,9 +1,9 @@
 {
-    "_version": "0.6.0",
-    "gameCodeId": "LB",
-    "gameCodeLanguage": "M",
-    "gameCodeSystem": "V",
-    "gameTitle": "libgccvb Barebone",
-    "makerCode": "CR",
-    "revision": 0
+	"_version": "0.7.0",
+	"gameCodeId": "LB",
+	"gameCodeLanguage": "M",
+	"gameCodeSystem": "V",
+	"gameTitle": "libgccvb Barebone",
+	"makerCode": "CR",
+	"revision": 0
 }

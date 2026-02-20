@@ -1,30 +1,32 @@
 {
-    "_id": "Al2hT4ppXuQNaTIO",
-    "_version": "0.6.0",
-    "animation": {
-        "frames": 0,
-        "individualFiles": false,
-        "isAnimation": false
-    },
-    "colorMode": 0,
-    "files": [],
-    "imageProcessingSettings": {
-        "distanceCalculator": "euclidean",
-        "imageQuantizationAlgorithm": "nearest",
-        "minimumColorDistanceToDither": 0,
-        "serpentine": false
-    },
-    "map": {
-        "compression": "none",
-        "generate": true,
-        "reduce": {
-            "flipped": true,
-            "unique": true
-        }
-    },
-    "section": "rom",
-    "tileset": {
-        "compression": "none",
-        "shared": false
-    }
+	"_id": "Al2hT4ppXuQNaTIO",
+	"_version": "0.7.0",
+	"animation": {
+		"frames": 0,
+		"individualFiles": false,
+		"isAnimation": false
+	},
+	"colorMode": 0,
+	"files": [
+		"AdjustmentScreen.png"
+	],
+	"imageProcessingSettings": {
+		"distanceCalculator": "euclidean",
+		"imageQuantizationAlgorithm": "nearest",
+		"minimumColorDistanceToDither": 0,
+		"serpentine": false
+	},
+	"map": {
+		"compression": "none",
+		"generate": true,
+		"reduce": {
+			"flipped": true,
+			"unique": true
+		}
+	},
+	"section": "rom",
+	"tileset": {
+		"compression": "none",
+		"shared": false
+	}
 }

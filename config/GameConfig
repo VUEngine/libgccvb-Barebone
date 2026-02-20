@@ -1,6 +1,9 @@
 {
-    "_version": "0.6.0",
-    "plugins": {},
-    "projectTitle": "libgccvb Barebone",
-    "projectAuthor": "Team VUEngine"
+	"_version": "0.7.0",
+	"dashboard": {
+		"positions": {}
+	},
+	"plugins": {},
+	"projectAuthor": "Team VUEngine",
+	"projectTitle": "libgccvb Barebone"
 }
