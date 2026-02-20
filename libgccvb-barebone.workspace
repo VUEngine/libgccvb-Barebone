@@ -3,5 +3,10 @@
         {
             "path": ""
         }
-    ]
+	],
+	"settings": {
+		"build.engine.core.path": "%BUILTIN%/libgccvb",
+		"plugins.user.path": "",
+		"plugins.library.path": ""
+	}
 }
